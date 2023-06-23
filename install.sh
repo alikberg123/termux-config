@@ -8,6 +8,8 @@ apt update && apt full-upgrade -y
 echo "все покеты обновлены"
 
 #устоновка пакетов
+echo "устоновка android-tools"
+pkg install android-tools
 echo 'устоновка nmap'
 pkg install nmap -y
 #Текстовые редакторы 
