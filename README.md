@@ -1,1 +1,2 @@
-# termux-install
+# termux.config.install
+required config for termux 
