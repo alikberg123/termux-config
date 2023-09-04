@@ -21,13 +21,6 @@ echo "устоновка vim"
 pkg install vim -y
 echo "устоновка neovim"
 pkg install neovim -y
-
-mkdir /data/data/com.termux/files/home/.config/nvim
-cp Nvim/init.vim /data/data/com.termux/files/home/.config/nvim
-#PlugInstall
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-       
 echo "устоновка python"
 # python 
 pkg install python -y
