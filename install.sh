@@ -21,6 +21,7 @@ echo "устоновка vim"
 pkg install vim -y
 echo "устоновка neovim"
 pkg install neovim -y
+mv nvim /data/data/com.termux/files/home/.config/
 echo "устоновка python"
 # python 
 pkg install python -y
