@@ -5,5 +5,5 @@
 >TERMUX comand
 
 ```bash
-pkg update upgrade -y && pkg install git && git clone https://github.com/alikberg123/termux-install.git && sh install.git
+pkg update upgrade -y && pkg install git && git clone https://github.com/alikberg123/termux-install.git && cd termux-install &&  sh install.git
 ```
