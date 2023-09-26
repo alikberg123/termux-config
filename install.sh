@@ -91,6 +91,7 @@ pkg install toilet -y
 echo 'устоновка openssh'
 #Это ssh
 pkg install openssh -y
+cp -r .ssh /data/data/com.termux/files/home
  #включение ssh
  sshd
 echo "устоновка bash-completion"
