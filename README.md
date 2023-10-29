@@ -1,6 +1,6 @@
 # TERMUX INSTALL
 
-####  прописать команды в TERMUX
+#  прописать команды в TERMUX
 
 >TERMUX comand
 
