@@ -3,7 +3,7 @@
 
 #обновление пакетов
 echo 'обновление пакетов'
-apt update && apt full-upgrade -y
+apt update && apt full-upgrade
 
 echo "все покеты обновлены"
 

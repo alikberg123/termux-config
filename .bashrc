@@ -1,3 +1,4 @@
+echo "HELLO TERMUX"
 alias updg="pkg update && pkg upgrade"
 alias reinstall="apt autoremove && apt autoclean -y"
 alias mic="micro"
