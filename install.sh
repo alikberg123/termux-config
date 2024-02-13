@@ -6,7 +6,6 @@ echo 'обновление пакетов'
 apt update && apt full-upgrade
 
 echo "все покеты обновлены"
-
 #устоновка пакетов
 echo "устоновка android-tools"
 pkg install android-tools
