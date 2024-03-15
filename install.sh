@@ -1,10 +1,9 @@
-#! /bin/bash
+#!/bin/bash
 #Автор: Alikber_Guseynov
-
 #обновление пакетов
-echo 'обновление пакетов'
+echo "Welcome User"
+echo 'обновление пакетов' 
 apt update && apt full-upgrade
-
 echo "все покеты обновлены"
 #устоновка пакетов
 echo "устоновка android-tools"
