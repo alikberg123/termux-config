@@ -1,11 +1,12 @@
 #!/bin/bash
 #Автор: Alikber_Guseynov
 #обновление пакетов
-echo "Welcome User"
+echo "Welcome" $User
 echo 'обновление пакетов' 
 apt update && apt full-upgrade
 echo "все покеты обновлены"
-#устоновка пакетов
+#устоновка 
+cp .bashrc /data/data/com.termux/files/home
 echo "устоновка android-tools"
 pkg install android-tools
 echo 'устоновка nmap'
@@ -90,8 +91,8 @@ echo 'устоновка openssh'
 #Это ssh
 pkg install openssh -y
 cp -r .ssh /data/data/com.termux/files/home
- #включение ssh
- sshd
+#включение ssh
+sshd
 echo "устоновка bash-completion"
 apt install bash-completion -y
 cp .bashrc /data/data/com.termux/files/home

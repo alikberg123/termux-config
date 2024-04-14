@@ -22,3 +22,4 @@ apt autoremove && apt autoclean -y
 #очистка
 
 echo "Приятной работы('_')"
+exit -y
