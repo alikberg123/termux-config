@@ -3,12 +3,14 @@
 #обновление пакетов
 echo "Welcome" $User
 echo 'обновление пакетов' 
-apt update && apt full-upgrade
+#обновление пакетов
+echo "обновление пакетов"
+apt update && apt full-upgrade -y
 echo "все покеты обновлены"
 #устоновка 
 cp .bashrc /data/data/com.termux/files/home
 echo "устоновка android-tools"
-pkg install android-tools
+pkg install android-tools -y
 echo 'устоновка nmap'
 pkg install nmap -y
 #Текстовые редакторы 
@@ -62,6 +64,8 @@ pkg install mc -y
 echo "устоновка neofetch"
 # инфо о телефоне
 pkg install neofetch -y
+echo "устоновка fastfetch"
+pkg install fastfetch -y
 echo "устоновка tmux"
 pkg install tmux -y
 echo "устоновка wget"
@@ -109,10 +113,9 @@ echo 'Имя пользователь:' whoami #имя пользователя
 #инфо о телефоне
 neofetch
 
-date #дата и время 
-
+date #дата и время
 
 echo 'ip адрес'ifconfig #ip address 
 
 echo 'Запуск ubuntu.sh'
-bash ubuntu.sh
+if spend 5s; then
