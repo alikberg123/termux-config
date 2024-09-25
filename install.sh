@@ -22,7 +22,7 @@ echo "устоновка vim"
 pkg install vim -y
 echo "устоновка neovim"
 pkg install neovim -y
-mv nvim /data/data/com.termux/files/home/.config/
+cp nvim /data/data/com.termux/files/home/.config/
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 echo "устоновка python"
@@ -118,4 +118,3 @@ date #дата и время
 echo 'ip адрес'ifconfig #ip address 
 
 echo 'Запуск ubuntu.sh'
-if spend 5s; then

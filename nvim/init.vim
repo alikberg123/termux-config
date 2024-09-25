@@ -1,5 +1,3 @@
-print("Hello neovim")
-
 :set number
 :set relativenumber
 :set autoindent
