@@ -1,7 +1,17 @@
 # TERMUX INSTALL
 
 ##  прописать команды в TERMUX
+<img src="img/ter1.png">
+<style>
+    body{
+        background-color:black;
+    }
+    img{
+        width:200px;
+        height:200px;
 
+    }
+</style>
 >TERMUX comand
 
 ```bash

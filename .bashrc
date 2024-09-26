@@ -1,6 +1,4 @@
-#!bin/bash
-
-
+echo Welcome $whoami
 alias updg="pkg update && pkg upgrade"
 alias reinstall="apt autoremove && apt autoclean -y"
 alias py="$python"
