@@ -1,7 +1,7 @@
 #!/bin/bash
-#Автор: Alikber_Guseynov
+#Автор: Alikber_Rashidov
 #обновление пакетов
-echo "Welcome" $User
+echo "Welcome" $USER
 echo 'обновление пакетов' 
 #обновление пакетов
 echo "обновление пакетов"
@@ -94,6 +94,7 @@ pkg install toilet -y
 echo 'устоновка openssh'
 #Это ssh
 pkg install openssh -y
+ssh-keygen
 cp -r .ssh /data/data/com.termux/files/home
 #включение ssh
 sshd
